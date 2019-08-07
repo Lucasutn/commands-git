@@ -1,3 +1,43 @@
+Comandos de Udemy
+
+git -- version
+git help
+clear
+git config --gloabal user.name "Lucas"
+git config --global -e (registro de modificiacion..)
+ls (en que carpeta me encuentro)
+ls -al (informacion itde las carpetas)
+cd (moverse a otra carpeta)
+git init (crear repositorio)
+git status (estado de los archivos)
+pwd (muestra la dirreciion de la carpeta en la que me encuentro)
+git add . (agrega todos los archivos)
+git commit -m "Mensaje"(guarda el proyecto como se encuentra actualmente )
+git checkout --  .(recupera los cambios)
+git log
+git add -A (agrega todos los archivos que no fueron modificados)
+git resset *.xml (para sacar excluir todos los archivos que estan en el stage)
+git log --oneline
+git log --oneline --decorate --all --graph
+
+$ git config --global alias.lg "log --oneline --decorate --all --graph" (asigna
+ una funcioncion a la palabra lg)
+
+mkdir proyecto1
+touch vacio.txt
+cat 
+rm vacio.txt
+ls --la
+
+git rm --chached historia
+
+git config --list --show-origin
+
+git show historia.txt(ver los cambios en el archivo)
+
+
+//
+
 El origin"" se llama comandos(git push comandos master)
 
 
