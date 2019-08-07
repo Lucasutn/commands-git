@@ -139,6 +139,10 @@ git push origin footer (para enviar las ramas)
 
 git push origin cabecera
 
+git clone https://github.com/Lucasutn/hyperblog.git
+
+git config --get-regexp alias
+
 
 
 
