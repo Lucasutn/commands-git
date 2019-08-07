@@ -1,3 +1,6 @@
+El origin"" se llama comandos(git push comandos master)
+
+
 ls
 ls -al
 pwd
