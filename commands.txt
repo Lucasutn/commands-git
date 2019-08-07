@@ -1,0 +1,66 @@
+ls
+ls -al
+pwd
+cd
+mkdir (crea una carpeta)
+touch vacio.txt(crea archivos vacios)
+
+cat vacio.txt (Muestra el contenido de un archivo)
+
+rm vacio.txt (borra un archivo)
+
+rm --help
+
+git rm --cached historia.txt
+
+git config --list
+git config --list --show-origin
+git config --global user.name "Lucas"
+git config --global user.email " lucas@hotmail.com"
+
+git diff 
+
+git reset c8a367d0882c00dbc4d55a947f75918c5fbdb3a1 --hard
+git reset c8a367d0882c00dbc4d55a947f75918c5fbdb3a1 --soft
+
+
+git checkout
+
+git log --stat
+
+ git commit -am
+
+git branch cabecera
+
+git checkout cabecera
+
+git branch
+
+git merge cabecera
+
+$ git remote add origin https://github.com/Lucasutn/hyperblog.git
+
+git remote
+
+git remote -v
+
+git push origin master
+
+$ git pull origin master
+
+git pull origin master --allow-unrelated-histories
+
+$ ssh-keygen -t rsa -b 4096 -C "lucashnutn@gmail.com"
+
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_rsa
+
+git remote set-url origin  git@github.com:Lucasutn/hyperblog.git
+
+git pull
+
+git pull origin master
+
+ git push origin master
+
