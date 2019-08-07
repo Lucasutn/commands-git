@@ -36,7 +36,13 @@ git config --list --show-origin
 git show historia.txt(ver los cambios en el archivo)
 
 
-//
+
+
+
+///////////*//////*/////////////*/////////////*//////////////*////////////*///////////*///////////
+
+
+
 
 El origin"" se llama comandos(git push comandos master)
 
