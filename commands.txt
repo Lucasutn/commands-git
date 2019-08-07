@@ -67,3 +67,32 @@ git pull origin master
 
  git push origin master
 
+git log --all --graph --decorate --oneline
+
+alias registro="git log --all --graph --decorate --oneline" (esto es un alias con el nombre registro)
+
+git tag -a v0.1 -m "Resusltado de las primeras clases del curso" e7a5c81 (al tag se le puede colocar un nombre en este caso v1.0)
+
+git tag (para ver todos los tags)
+
+git show-ref --tags (la forma de saber a que commit esta conectado el tag)
+
+git push origin --tags(esto envia los tags a github)
+
+git tag -d dormido (para borrrar un tag, dormido es el nombre del tag)
+
+git push origin :refs/tags/dormido(borra el tag en github)
+
+git show-branch (nos muestra cuales son las ramas que existen y su historia)
+
+git show-branch --all (lo mismo pero con mas datos)
+
+gitk (visual)
+
+git push origin footer (para enviar las ramas)
+
+git push origin cabecera
+
+
+
+
