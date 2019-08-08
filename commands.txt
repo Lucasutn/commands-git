@@ -1,4 +1,4 @@
-Comandos de Udemy xd sdsd
+Comandos de Udemy
 
 git -- version
 git help
