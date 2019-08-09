@@ -143,6 +143,27 @@ git clone https://github.com/Lucasutn/hyperblog.git
 
 git config --get-regexp alias
 
+git pull origin footer (trae una rama de github)
 
+vi blogspost.html (para abrir el archivo en la consola)
 
+git remote -v (sirve para ver todos los tag" de los link de github)
+
+git stash (Regresar a un estado anterior, al ultimo commit, y guarda el estado modificado en un lugar temporal)
+
+git stash list (ver la lista de cambios guardados)
+
+git stash pop (Regresa al estado modificiado)
+
+git stash branch english-version (crea una nueva rama con los cambios que estan guardados en temporal luego de utilizar el comando stash)
+
+git stash drop (para borrar lo guardado temporal en stash )
+
+git clean
+
+git clean --dru-run (prueba* y enseña por consola los archivos que van a ser borrados, si utilizo el comando git clean)
+
+git clean -f
+
+git cherry-pick dca2a24 (comando para traer un commit de cualquier rama a la rama master(rama actual) al head)
 
