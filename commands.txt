@@ -167,3 +167,50 @@ git clean -f
 
 git cherry-pick dca2a24 (comando para traer un commit de cualquier rama a la rama master(rama actual) al head)
 
+git commit --amend (para remendar enmendar un commit anterior, pega los nuevos cambios al commit anterior, incluso puerdo cambiar el texto del commit)
+
+git branch -D cabecera(para borrar un branch)
+
+git reflog (muestra todos los cambios sucesos, similar a git log, pero mas completo en cuanto a los cambios)
+
+git reset HEAD@{2} (Nos trae a la posicion donde nos encontrabamos con anterioridad poniendo el HEAD extrado con reflog, osea elegimos el estado/lugar al cual queremos regresar)
+
+git reset --HARD 2634136
+
+git grep color (para buscar cuantas veces aparece la palabra color en el proyecto, basicamente un buscador)
+
+git grep -n color(mee dice en que Linea utilize la palabra color) 
+
+git grep -c color (la cantiodad de veces que utilize la palabra color y el archivo donde)
+
+git grep -c "<p>"
+
+git log -S "cabecera" (me muestra todos los commit donde aparece la palabra cabecera o cabecera tiene algo que ver en)
+
+grep para los archivos log para los commits
+
+git shortlog (log por persona de los commmit por persona)
+
+git shortlog -sn(personas que han hechos commits)
+
+git shorlog -sn --all --no-merges
+
+git shortlog -sn --all --no-merges
+
+git config --global alias.stats "git shortlog -sn --all --no-merges"
+
+git stats
+
+git blame blogpost.html (para saber lineae por linea quien hizo tal y cual cosa)
+
+git blame -c blogpost.html (lo mismo que el anterior comando pero mas organizado)
+
+git blame css/estilos.css -L35,53(muestra solo las lineas indicadas en este caso desde la 35 a 53)
+
+git blame css/estilos.css -L35,53 -c
+
+git branch -r (ves ramas remotas en github)
+
+git branch -a (ves todas las ramas locales y remotas)
+
+
