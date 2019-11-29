@@ -214,3 +214,11 @@ git branch -r (ves ramas remotas en github)
 git branch -a (ves todas las ramas locales y remotas)
 
 
+$ git push -d <remote_name> <branch_name>
+$ git branch -d <branch_name>
+
+git push -d origin <branch_name>
+
+
+$ git branch -d branch_name
+$ git branch -D branch_name
